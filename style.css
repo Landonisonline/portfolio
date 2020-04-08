@@ -11,7 +11,6 @@ body {
 }
 
 .header {
-    /* ¯\_(ツ)_/¯ */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +20,6 @@ body {
 }
 
 .heading {
-    /* ¯\_(ツ)_/¯ */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,18 +55,22 @@ body {
     font-style: italic;
 }
 
-.hello {
-    /* font-family: 'Anton', sans-serif; */
-    font-size: 50px;
-    font-style: italic;
+.teal-line {
+    height: 10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     background-color: #67ffce;
 }
 
-.head-font {
-    font-family: 'Anton', sans-serif;
-    color: #0e0367;
+.hello {
+    height: 75%;
+    width: 100%;
     font-size: 50px;
     font-style: italic;
+    background-color: #0E0367;
+    border-top: 7px solid #67ffce;
+    border-bottom: 7px solid #67ffce;
 }
 
 .large-text {
@@ -85,13 +87,19 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #0e0367;
-
 }
 
 .row {
     display: grid;
     padding: 0px 0 30px 0;
-    grid-template-columns: repeat(2,40%); /*500px*/
+    grid-template-columns: repeat(2, 40%);
+    justify-content: space-evenly;
+}
+
+.single-row {
+    display: grid;
+    padding: 0px 0 30px 0;
+    grid-template-columns: repeat(1, 87%);
     justify-content: space-evenly;
 }
 
@@ -135,16 +143,20 @@ body {
     background: url('https://res.cloudinary.com/dqcw8u5pf/image/upload/v1586240256/port-project-imgs/shopping-list-img_udqqgh.png');
 }
 
+.bkg-5:hover {
+    background: url('https://res.cloudinary.com/dqcw8u5pf/image/upload/v1586385067/port-project-imgs/email-responder_gqc3fs.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .box:hover  {
     /* background-color: #67ffce; */
     text-decoration: underline;
     border: #ffffff 5px solid;
     border-radius: 20px;
-    /* font-weight: bold;
-    font-size: 260%; */
 }
 
-@media (max-width: 700px) {
+@media (max-width: 790px) {
     .box {
         flex-direction: column;
     }
@@ -160,5 +172,9 @@ body {
 
     .welcome-text {
         padding: 225px 10px 225px 10px;
+    }  
+
+    .in-gt {
+        padding: 5px 10px;
     }
 }
