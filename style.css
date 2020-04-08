@@ -129,18 +129,26 @@ body {
 
 .bkg-1:hover {
     background: url('https://res.cloudinary.com/dqcw8u5pf/image/upload/v1586240256/port-project-imgs/dashboard-img_q7qvjd.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .bkg-2:hover {
     background: url('https://res.cloudinary.com/dqcw8u5pf/image/upload/v1586240256/port-project-imgs/bakery-img_ibehjn.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .bkg-3:hover {
     background: url('https://res.cloudinary.com/dqcw8u5pf/image/upload/v1586240256/port-project-imgs/guess-a-letter-img_g5by9w.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .bkg-4:hover {
     background: url('https://res.cloudinary.com/dqcw8u5pf/image/upload/v1586240256/port-project-imgs/shopping-list-img_udqqgh.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .bkg-5:hover {
