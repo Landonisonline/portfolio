@@ -47,6 +47,11 @@ body {
     border-radius: 70px;
 }
 
+.in-gt:hover {
+    background-color: #1C2E3C;
+    
+}
+
 .welcome-text {
     font-family: 'Anton', sans-serif;
     padding: 300px 0 300px 0;
