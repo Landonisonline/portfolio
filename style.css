@@ -44,12 +44,7 @@ body {
     padding: 10px 20px;
     background-color: #0E171E;
     border: white  3px solid;
-    border-radius: 20px;
-}
-
-.in-gt:hover {
-    background-color: #1C2E3C;
-    text-decoration: underline;
+    border-radius: 70px;
 }
 
 .welcome-text {
