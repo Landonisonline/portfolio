@@ -124,6 +124,8 @@ body {
     height: 250px;
     border: #1C2E3C 3px solid;
     border-radius: 20px;
+    transition: 0.3s;
+    background-size: 110%;
 }
 
 .box-font {
@@ -171,7 +173,6 @@ body {
 }
 
 .box:hover  {
-    /* background-color: #1C2E3C; */
     text-decoration: underline;
     border: #ffffff 5px solid;
     border-radius: 20px;
