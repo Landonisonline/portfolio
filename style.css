@@ -164,6 +164,12 @@ body {
     background-size: 100%;
 }
 
+.bkg-6:hover {
+    background: url('https://res.cloudinary.com/dqcw8u5pf/image/upload/v1592974955/dsBuffer.bmp_whbllo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .box:hover  {
     /* background-color: #1C2E3C; */
     text-decoration: underline;
